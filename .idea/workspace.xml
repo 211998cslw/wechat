@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/aa/EventController.php" line="15" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/app/Http/Controllers/aa/LoginController.php" description="    public function do_login()&#10;    {&#10;        retur..." line="9" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe011652-4399-4a9f-baf6-4e392d5fe068" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1298">
+              <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+              <folding>
+                <element signature="e#391#451#0#PHP" expanded="false" />
+                <element signature="e#407#450#1#PHP" expanded="false" />
+                <element signature="e#544#811#0#PHP" expanded="false" />
+                <element signature="e#818#1036#0#PHP" expanded="false" />
+                <element signature="e#1041#1256#0#PHP" expanded="false" />
+                <element signature="e#1274#1641#0#PHP" expanded="false" />
+                <element signature="e#2727#2926#0#PHP" expanded="false" />
+                <element signature="e#2945#3274#0#PHP" expanded="false" />
+                <element signature="e#3292#3439#0#PHP" expanded="false" />
+                <element signature="e#3453#3786#0#PHP" expanded="false" />
+                <element signature="e#3801#4210#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_list.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/aa/Wechat/user_list.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <folding>
+                <marker date="1569236555397" expanded="true" signature="69:83" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="181:201" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="233:248" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="285:304" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="388:395" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="796:802" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="859:865" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="899:909" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="943:969" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="1003:1016" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="1084:1104" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="1112:1118" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="1166:1185" ph="..." />
+                <marker date="1569236555397" expanded="true" signature="1197:1207" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AgentController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/AgentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AgentController.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Controllers/aa/AgentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="13" column="60" lean-forward="true" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventController.php" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Controllers/aa/EventController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-110">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WechatController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/WechatController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+              <folding>
+                <element signature="e#448#543#0#PHP" expanded="false" />
+                <element signature="e#578#837#0#PHP" expanded="false" />
+                <element signature="e#5189#5657#0#PHP" expanded="false" />
+                <element signature="e#5671#5751#0#PHP" expanded="false" />
+                <element signature="e#5756#8072#0#PHP" expanded="false" />
+                <element signature="e#8092#10716#0#PHP" expanded="false" />
+                <element signature="e#10720#11072#0#PHP" expanded="false" />
+                <element signature="e#11077#11171#0#PHP" expanded="false" />
+                <element signature="e#11176#11683#0#PHP" expanded="false" />
+                <element signature="e#11699#13489#0#PHP" expanded="false" />
+                <element signature="e#13515#14600#0#PHP" expanded="false" />
+                <element signature="e#14617#15168#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_</find>
+      <find>v</find>
+      <find>get_user</find>
+      <find>$this-&gt;wechat_user_info</find>
+      <find>insert</find>
+      <find>updat</find>
+      <find>user_list</find>
+      <find>up</find>
+      <find>push_tag_message</find>
+      <find>tag_openid_list</find>
+      <find>user_</find>
+      <find>tag_openid</find>
+      <find>use Illuminate\Support\Facades\Storage;</find>
+      <find>tag_user_list</find>
+      <find>login</find>
+      <find>user_tag_list</find>
+      <find>get_user_l</find>
+      <find>get_user_info</find>
+      <find>tag_</find>
+      <find>wechat_tag_list</find>
+      <find>tag_l</find>
+      <find>pus</find>
+      <find>tag_user</find>
+      <find>wechat-&gt;tag_user</find>
+      <find>wechat_user_info</find>
+      <find>tags</find>
+      <find>tag_id</find>
+      <find>DB</find>
+      <find>create_menu</find>
+      <find>zk</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Http/Tools/Wechat.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/tag/pushTagMsg.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/login/do_login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhaokao/zk_login.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/LoginController.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/liuyan.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/zhoukao.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/agent/agent.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/Wechat/get_user_info.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/tag/tag_update.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/Wechat/userList.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/agent/agent_list.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/.env" />
+        <option value="&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Controllers/aa/AgentController.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/menu/menu_list.blade.php" />
+        <option value="&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Controllers/aa/MenuController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/EventController.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/Wechat/location.blade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/zk_login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/tag/tag_list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/zk_liuyan.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/tag_list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/get_user_info.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/zk_tag_add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/zk_tag_user.blade.php" />
+        <option value="$PROJECT_DIR$/app/Tools/Tools.php" />
+        <option value="$PROJECT_DIR$/resources/views/Wechat/tag_list.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/TagController.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/zk_user_list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/zk_tag_list.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/zhoukao/zk_push_tag_message.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/ZhoukaoController.php" />
+        <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/MenuController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QiandaoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/Test.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/QiandaoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/QiamdaoController.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/qiandao/menuList.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/qiandao/qd_list.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WechatController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AgentController.php" />
+        <option value="&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Controllers/aa/QiaodaoController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/QiaodaoController.php" />
+        <option value="$PROJECT_DIR$/resources/views/aa/Wechat/get_user_list.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/WechatController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/aa/AgentController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aa" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Illuminate&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe011652-4399-4a9f-baf6-4e392d5fe068" name="Default" comment="" />
+      <created>1565612330819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565612330819</updated>
+      <workItem from="1565612333105" duration="1943000" />
+      <workItem from="1565659006168" duration="2000000" />
+      <workItem from="1565661384435" duration="873000" />
+      <workItem from="1565662283153" duration="2044000" />
+      <workItem from="1565664667470" duration="2981000" />
+      <workItem from="1565681222621" duration="14284000" />
+      <workItem from="1565746182424" duration="7392000" />
+      <workItem from="1565754964453" duration="3166000" />
+      <workItem from="1565769902121" duration="3382000" />
+      <workItem from="1565773520007" duration="10373000" />
+      <workItem from="1565829663375" duration="2375000" />
+      <workItem from="1565833777542" duration="1967000" />
+      <workItem from="1565835931282" duration="5448000" />
+      <workItem from="1565849259527" duration="1245000" />
+      <workItem from="1565850543067" duration="377000" />
+      <workItem from="1565851385682" duration="9275000" />
+      <workItem from="1565865558682" duration="798000" />
+      <workItem from="1565866410455" duration="4150000" />
+      <workItem from="1565915996991" duration="18151000" />
+      <workItem from="1566002897896" duration="11821000" />
+      <workItem from="1566174535973" duration="3776000" />
+      <workItem from="1566181722551" duration="7322000" />
+      <workItem from="1566268346854" duration="10324000" />
+      <workItem from="1566388747789" duration="594000" />
+      <workItem from="1566389359819" duration="773000" />
+      <workItem from="1566439388283" duration="16291000" />
+      <workItem from="1566522843968" duration="13265000" />
+      <workItem from="1566632950478" duration="774000" />
+      <workItem from="1566779526155" duration="6468000" />
+      <workItem from="1566892463091" duration="11925000" />
+      <workItem from="1566952429237" duration="12523000" />
+      <workItem from="1567038707715" duration="13911000" />
+      <workItem from="1567156928171" duration="7981000" />
+      <workItem from="1567212066496" duration="16489000" />
+      <workItem from="1567384459424" duration="10849000" />
+      <workItem from="1567472639034" duration="17002000" />
+      <workItem from="1567511013357" duration="3258000" />
+      <workItem from="1567558922567" duration="13237000" />
+      <workItem from="1567643481033" duration="5981000" />
+      <workItem from="1567729252152" duration="10789000" />
+      <workItem from="1567770236274" duration="915000" />
+      <workItem from="1567817231641" duration="15026000" />
+      <workItem from="1567988997267" duration="14013000" />
+      <workItem from="1568029072039" duration="4702000" />
+      <workItem from="1568075634838" duration="17057000" />
+      <workItem from="1568161987428" duration="21677000" />
+      <workItem from="1568247988038" duration="17270000" />
+      <workItem from="1568549756993" duration="3504000" />
+      <workItem from="1568594265950" duration="24545000" />
+      <workItem from="1568680156098" duration="28142000" />
+      <workItem from="1568767881681" duration="25347000" />
+      <workItem from="1568853188043" duration="14422000" />
+      <workItem from="1568940478559" duration="26753000" />
+      <workItem from="1568983725049" duration="412000" />
+      <workItem from="1569026763033" duration="6913000" />
+      <workItem from="1569198325868" duration="18856000" />
+      <workItem from="1569227569841" duration="797000" />
+      <workItem from="1569229115495" duration="3341000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="531269000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09869848" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19848156" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.051705755" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19848156" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.008762322" sideWeight="0.48590815" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09869848" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.019522777" sideWeight="0.51409185" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.008762322" sideWeight="0.48590815" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19848156" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.009061834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Controllers/WechatController.php</url>
+          <line>141</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Controllers/WechatController.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Controllers/WechatController.php</url>
+          <line>409</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Tools/Wechat.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>remoteDeploymentFS://&lt;f7a5b011-ef24-4d29-8f5b-11b27c619721&gt;/app/Http/Tools/Wechat.php</url>
+          <line>185</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/BiaobaiController.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/MenuController.php</url>
+          <line>80</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/aa/LoginController.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/aa/WechatController.php</url>
+          <line>207</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/aa/TagController.php</url>
+          <line>156</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/WechatController.php</url>
+          <line>138</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Tools/Wechat.php</url>
+          <line>57</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Tools/Wechat.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="57" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/storage/wechatimage/15680275387028.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/tag/tag_update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/app/public/wechat/qrcode/15687191881815.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="85" column="16" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aaMenuController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MenuController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2601">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#4667#5565#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/agent/agent_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+          <folding>
+            <element signature="e#43#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/Wechat/location.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="47" column="39" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/wechat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/tag/tag_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/Wechat/get_user_info.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Wechat/userList.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/zhoukao/get_user_info.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/Wechat/add_tag.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/zhoukao/zk_tag_add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Wechat/pushTagMessage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/zhoukao/zk_tag_user.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Tools/Wechat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="100" column="5" lean-forward="true" selection-start-line="94" selection-start-column="3" selection-end-line="100" selection-end-column="5" />
+          <folding>
+            <element signature="e#59#81#0#PHP" expanded="true" />
+            <element signature="e#1436#2813#0#PHP" expanded="false" />
+            <element signature="e#3237#4378#0#PHP" expanded="false" />
+            <element signature="e#4482#5240#0#PHP" expanded="false" />
+            <element signature="e#5290#6162#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tools/Tools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#228#1012#0#PHP" expanded="false" />
+            <element signature="e#1042#1751#0#PHP" expanded="false" />
+            <element signature="e#1757#2175#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Wechat/tag_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/QiandaoController" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/Test.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/aa.php" />
+    <entry file="file://$PROJECT_DIR$/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/QiandaoController.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/qiandao/qd_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/menu/menu_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Menu/menuList.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/TagController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1146">
+          <caret line="103" column="21" lean-forward="false" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+          <folding>
+            <element signature="e#682#758#0#PHP" expanded="false" />
+            <element signature="e#1348#1844#0#PHP" expanded="false" />
+            <element signature="e#2057#2562#0#PHP" expanded="false" />
+            <element signature="e#2582#2751#0#PHP" expanded="false" />
+            <element signature="e#3382#4156#0#PHP" expanded="false" />
+            <element signature="e#4162#4678#0#PHP" expanded="false" />
+            <element signature="e#4697#5131#0#PHP" expanded="false" />
+            <element signature="e#4920#5001#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/MenuController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/qiandao/qd_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AgentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QiandaoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5221">
+          <caret line="227" column="48" lean-forward="true" selection-start-line="227" selection-start-column="48" selection-end-line="227" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/zhoukao/zk_login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/zhoukao/zk_tag_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/zhoukao/zk_push_tag_message.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/EventController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WechatController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="287" column="19" lean-forward="true" selection-start-line="287" selection-start-column="19" selection-end-line="287" selection-end-column="19" />
+          <folding>
+            <element signature="e#38#66#0#PHP" expanded="true" />
+            <element signature="e#310#450#0#PHP" expanded="false" />
+            <element signature="e#452#689#0#PHP" expanded="false" />
+            <element signature="e#694#1033#0#PHP" expanded="false" />
+            <element signature="e#1049#1332#0#PHP" expanded="false" />
+            <element signature="e#1337#2821#0#PHP" expanded="false" />
+            <element signature="e#2826#3170#0#PHP" expanded="false" />
+            <element signature="e#3175#3910#0#PHP" expanded="false" />
+            <element signature="e#3927#4171#0#PHP" expanded="false" />
+            <element signature="e#4188#4531#0#PHP" expanded="false" />
+            <element signature="e#4549#4820#0#PHP" expanded="false" />
+            <element signature="e#4835#5290#0#PHP" expanded="false" />
+            <element signature="e#5295#6174#0#PHP" expanded="false" />
+            <element signature="e#6179#7092#0#PHP" expanded="false" />
+            <element signature="e#7097#7995#0#PHP" expanded="false" />
+            <element signature="e#8011#8798#0#PHP" expanded="false" />
+            <element signature="e#8817#8890#0#PHP" expanded="false" />
+            <element signature="e#8906#9395#0#PHP" expanded="false" />
+            <element signature="e#9413#9599#0#PHP" expanded="false" />
+            <element signature="e#9621#9754#0#PHP" expanded="false" />
+            <element signature="e#9774#10505#0#PHP" expanded="false" />
+            <element signature="e#10528#10785#0#PHP" expanded="false" />
+            <element signature="e#10810#11735#0#PHP" expanded="false" />
+            <element signature="e#11751#12117#0#PHP" expanded="false" />
+            <element signature="e#12133#12308#0#PHP" expanded="false" />
+            <element signature="e#12326#12779#0#PHP" expanded="false" />
+            <element signature="e#12797#13552#0#PHP" expanded="false" />
+            <element signature="e#13594#14208#0#PHP" expanded="false" />
+            <element signature="e#14211#15109#0#PHP" expanded="false" />
+            <element signature="e#15114#15271#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/qq.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/zhoukao/zk_user_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <marker date="1569054574189" expanded="true" signature="69:83" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="181:204" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="236:254" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="291:313" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="397:404" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="805:811" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="868:874" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="908:918" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="952:978" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="1012:1025" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="1093:1116" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="1124:1130" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="1178:1200" ph="..." />
+            <marker date="1569054574189" expanded="true" signature="1212:1222" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/zhoukao/tag_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="30" column="119" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="30" selection-end-column="119" />
+          <folding>
+            <marker date="1568964409659" expanded="true" signature="98:119" ph="..." />
+            <marker date="1568964409659" expanded="true" signature="149:172" ph="..." />
+            <marker date="1568964409659" expanded="true" signature="448:456" ph="..." />
+            <marker date="1568964409659" expanded="true" signature="486:496" ph="..." />
+            <marker date="1568964409659" expanded="true" signature="526:537" ph="..." />
+            <marker date="1568964409659" expanded="true" signature="597:618" ph="..." />
+            <marker date="1568964409659" expanded="true" signature="626:634" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="164" column="0" lean-forward="true" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding>
+            <element signature="e#391#451#0#PHP" expanded="false" />
+            <element signature="e#407#450#1#PHP" expanded="false" />
+            <element signature="e#544#811#0#PHP" expanded="false" />
+            <element signature="e#818#1036#0#PHP" expanded="false" />
+            <element signature="e#1041#1256#0#PHP" expanded="false" />
+            <element signature="e#1274#1641#0#PHP" expanded="false" />
+            <element signature="e#2727#2926#0#PHP" expanded="false" />
+            <element signature="e#2945#3274#0#PHP" expanded="false" />
+            <element signature="e#3292#3439#0#PHP" expanded="false" />
+            <element signature="e#3453#3786#0#PHP" expanded="false" />
+            <element signature="e#3801#4210#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/ZhoukaoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="120" column="5" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="120" selection-end-column="5" />
+          <folding>
+            <element signature="e#307#389#0#PHP" expanded="false" />
+            <element signature="e#394#765#0#PHP" expanded="false" />
+            <element signature="e#770#2362#0#PHP" expanded="false" />
+            <element signature="e#5125#5633#0#PHP" expanded="false" />
+            <element signature="e#5359#5442#0#PHP" expanded="false" />
+            <element signature="e#5380#5432#1#PHP" expanded="false" />
+            <element signature="e#5999#6741#0#PHP" expanded="false" />
+            <element signature="e#6763#7230#0#PHP" expanded="false" />
+            <element signature="e#7255#7411#0#PHP" expanded="false" />
+            <element signature="e#7416#7970#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/QiaodaoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="123" column="20" lean-forward="true" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
+          <folding>
+            <element signature="e#43#71#0#PHP" expanded="true" />
+            <element signature="e#206#288#0#PHP" expanded="false" />
+            <element signature="e#737#942#1#PHP" expanded="false" />
+            <element signature="e#1027#4246#0#PHP" expanded="false" />
+            <element signature="e#3032#4094#0#PHP" expanded="false" />
+            <element signature="e#5050#6953#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/WechatController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+          <folding>
+            <element signature="e#448#543#0#PHP" expanded="false" />
+            <element signature="e#578#837#0#PHP" expanded="false" />
+            <element signature="e#5189#5657#0#PHP" expanded="false" />
+            <element signature="e#5671#5751#0#PHP" expanded="false" />
+            <element signature="e#5756#8072#0#PHP" expanded="false" />
+            <element signature="e#8092#10716#0#PHP" expanded="false" />
+            <element signature="e#10720#11072#0#PHP" expanded="false" />
+            <element signature="e#11077#11171#0#PHP" expanded="false" />
+            <element signature="e#11176#11683#0#PHP" expanded="false" />
+            <element signature="e#11699#13489#0#PHP" expanded="false" />
+            <element signature="e#13515#14600#0#PHP" expanded="false" />
+            <element signature="e#14617#15168#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/aa/Wechat/user_list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <marker date="1569236555397" expanded="true" signature="69:83" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="181:201" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="233:248" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="285:304" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="388:395" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="796:802" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="859:865" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="899:909" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="943:969" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="1003:1016" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="1084:1104" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="1112:1118" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="1166:1185" ph="..." />
+            <marker date="1569236555397" expanded="true" signature="1197:1207" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/aa/AgentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
