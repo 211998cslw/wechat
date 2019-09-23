@@ -18,6 +18,7 @@ class AgentController extends Controller
     }
     public function agent_list()
     {
+        echo 111;die;
         $info=DB::connection('wechat1')->table('user')->get();
 //       dd($info);
         return view('aa.agent.agent_list',['info'=>$info]);
