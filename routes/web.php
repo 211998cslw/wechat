@@ -170,7 +170,7 @@ Route::get('qd_list','aa\QiaodaoController@qd_list');//签到自定义菜单列�
 Route::post('qd_add','aa\QiaodaoController@qd_add');//签到添加
 Route::get('load_menu','aa\QiaodaoController@load_menu');//根据数据库表数据刷新菜单
 Route::get('qd_push_template_message','aa\QiaodaoController@qd_push_template_message');//根据数据库表数据刷新菜单
-Route::get('event','aa\QiaodaoController@event');//接收微信发送的消息【用户互动】
+
 
 
 
