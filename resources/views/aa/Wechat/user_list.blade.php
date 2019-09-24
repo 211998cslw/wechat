@@ -7,7 +7,7 @@
 <body>
 <center>
     <h1>粉丝列表</h1>
-    <a href="{{url('get_user_list')}}">刷新粉丝列表</a> |
+    <a href="{{url('user_list')}}">刷新粉丝列表</a> |
     <a href="{{url('tag_list')}}">公众号标签列表</a>
 
     <form action="{{url('add_user_tag')}}" method="post">
@@ -33,7 +33,7 @@
                     <td>{{$v->subscribe}}</td>
                     <td>
                         <a href="{{url('get_user_info')}}?id={{$v->id}}">详情</a> |
-                        <a href="{{url('get_user_tag')}}?openid={{$v->openid}}">获取标签</a>
+                        <a href="{{url('user_tag')}}?openid={{$v->openid}}">获取标签</a>
                     </td>
                 </tr>
             @endforeach

@@ -372,6 +372,10 @@ class WechatController extends Controller
         $re = $this->wechat->post($url,json_encode($data));
         dd(json_decode($re,1));
     }
+    public function get_access_token()
+    {
+        return $this->tools->get_wechat_access_token();
+    }
 
  /*// 获取assess_token
     public function get_access_token()
@@ -397,6 +401,7 @@ class WechatController extends Controller
         
         return $access_token;
     }
+
 
 */
     public function ss()

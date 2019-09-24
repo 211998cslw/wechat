@@ -186,29 +186,57 @@ class ZhoukaoController extends Controller
         dd($result);
     }
 ////    给标签下的粉丝推送消息
-    public function zk_push_tag_message(request $request)
+//    public function zk_push_tag_message(request $request)
+//    {
+//        return view('aa.zhoukao.zk_push_tag_message',['tagid'=>$request->all()['tagid']]);
+//    }
+//    public function zk_do_push_tag_message(Request $request)
+//{
+//    $req = $request->all();
+////    dd($req);
+//    $url = 'https://api.weixin.qq.com/cgi-bin/message/mass/sendall?access_token='.$this->tools->get_wechat_access_token();
+//    $data = [
+//        'filter' => [
+//            'is_to_all'=>false,
+//            'tag_id'=>$req['tagid']
+//        ],
+//        'text'=>[
+//            'content'=>$req['message']
+//        ],
+//        'msgtype'=>'text'
+//    ];
+//    $re = $this->tools->curl_post($url,json_encode($data));
+//    $result = json_decode($re,1);
+//    dd($result);
+//}
+
+
+//    根据标签群发消息
+    public function zk_push_tag_message(Request $request)
     {
         return view('aa.zhoukao.zk_push_tag_message',['tagid'=>$request->all()['tagid']]);
     }
     public function zk_do_push_tag_message(Request $request)
-{
-    $req = $request->all();
-//    dd($req);
-    $url = 'https://api.weixin.qq.com/cgi-bin/message/mass/sendall?access_token='.$this->tools->get_wechat_access_token();
-    $data = [
-        'filter' => [
-            'is_to_all'=>false,
-            'tag_id'=>$req['tagid']
-        ],
-        'text'=>[
-            'content'=>$req['message']
-        ],
-        'msgtype'=>'text'
-    ];
-    $re = $this->tools->curl_post($url,json_encode($data));
-    $result = json_decode($re,1);
-    dd($result);
-}
+    {
+        $req = $request->all();
+        $url = 'https://api.weixin.qq.com/cgi-bin/message/mass/sendall?access_token='.$this->tools->get_wechat_access_token();
+        echo $url;
+        $data = [
+            'filter' => [
+                'is_to_all'=>false,
+                'tag_id'=>$req['tagid']
+            ],
+            'text'=>[
+                'content'=>$req['message']
+            ],
+            'msgtype'=>'text'
+        ];
+        echo json_encode($data);
+        $re = $this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
+        $result = json_decode($re,1);
+        dd($result);
+    }
+
 
 
 }

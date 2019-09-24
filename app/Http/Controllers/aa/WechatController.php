@@ -19,7 +19,7 @@ class WechatController extends Controller
     }
     public function get_access_token()
     {
-        return $this->get_wechat_access_token();
+        return $this->tools->get_wechat_access_token();
     }
     /**
      * 调用频次清0
@@ -29,45 +29,6 @@ class WechatController extends Controller
         $data = ['appid'=>env('WECHAT_APPID')];
         $this->tools->curl_post($url,json_encode($data));
     }
-
-////    //用户粉丝列表
-//    public function get_user_list(request $request)
-//    {
-//        //echo 11;die;
-//        $req=$request->all();
-//        $openid_info=DB::connection('wechat1')->table('wechat_openid')->get();
-////         dd($req);
-////        $result = file_get_contents('https://api.weixin.qq.com/cgi-bin/user/get?access_token='.$this->tools->get_wechat_access_token() . '&next_openid=');
-//////         dd($result);
-////        $re = json_decode($result, 1);
-//////         dd($re);
-////        $last_info = [];
-////        foreach ($re['data']['openid'] as $k => $v) {
-////            $user_info = file_get_contents('https://api.weixin.qq.com/cgi-bin/user/info?access_token=' . $this->tools->get_wechat_access_token(). '&openid=' . $v .'&lang=zh_CN');
-////            $user = json_decode($user_info, 1);
-////            $last_info[$k]['nickname'] = $user['nickname'];
-////            $last_info[$k]['openid'] = $v;
-////        }
-////         dd($last_info);
-////        dd($re['data']['openid']);
-//        return view('aa.Wechat.get_user_list',['info'=>$openid_info,'tagid'=>isset($req['tagid'])?$req['tagid']:'']);
-//    }
-//
-////    获取用户基本信息
-//    public function get_user_info(request $request)
-//    {
-////        echo 111;die;
-//        //获取access_token
-//        $openid = request()->openid;
-////        dd($openid);
-//        $access_token = $this->tools->get_wechat_access_token();
-//        $result = file_get_contents("https://api.weixin.qq.com/cgi-bin/user/info?access_token=". $access_token."&openid=".$openid."&lang=zh_CN");
-////        dd($result);
-//        $re = json_decode($result);
-////        dd($re);
-//        return view('aa.Wechat.get_user_info', ['re' => $re]);
-//    }
-
     public function get_user_info(request $request)
     {
         $openid = DB::connection('wechat1')->table('wechat_openid')->where(['id'=>$request->all()['id']])->value('openid');
@@ -85,7 +46,6 @@ class WechatController extends Controller
     //粉丝列表
     public function user_list(Request $request)
     {
-        dd(1);
         $tag_id = !empty($request->all()['tag_id'])?$request->all()['tag_id']:'';
         $openid_info = DB::connection('wechat1')->table('wechat_openid')->get();
 //      dd($openid_info);

@@ -85,10 +85,10 @@ Route::get('/', function () {
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------
 route::get('get_access_token','aa\WechatController@get_access_token');//获取access_token
 
-Route::get('user_list','aa\ZhoukaoController@user_list');//用户列表
-Route::get('wechat_user_info','aa\ZhoukaoController@wechat_user_info');//用户列表
-Route::get('get_user_info','aa\ZhoukaoController@get_user_info');//用户列表
-Route::get('get_user_list','aa\ZhoukaoController@get_user_list');//用户列表
+Route::get('user_list','aa\WechatController@user_list');//用户列表
+Route::get('wechat_user_info','aa\WechatController@wechat_user_info');//用户列表
+Route::get('get_user_info','aa\WechatController@get_user_info');//用户列表
+Route::get('get_user_list','aa\WechatController@get_user_list');//用户列表
 
 route::get('upload','aa\WechatController@upload');//图片上传
 route::post('do_upload','aa\WechatController@do_upload');//图片上传
@@ -115,13 +115,15 @@ Route::post('do_update_tag','aa\TagController@do_update_tag');//修改执行
 
 Route::get('tag_openid_list','aa\TagController@tag_openid_list');//标签下用户的openid列表 //标签下的粉丝列表
 //Route::get('tag_user_list','aa\TagController@tag_user_list');//标签下的粉丝列表
-Route::post('tag_openid','aa\TagController@tag_openid');//为用户打标签
+Route::post('add_user_tag','aa\TagController@add_user_tag');//为用户打标签
 Route::get('push_tag_message','aa\TagController@push_tag_message'); //推送标签消息
 Route::post('do_push_tag_message','aa\TagController@do_push_tag_message'); //执行推送标签消息
-Route::any('event','aa\EventController@event');//接收微信发送的消息【用户互动】
 Route::get('/wechat/user_tag_list','TagController@user_tag_list'); //用户下的标签列表
 Route::get('tag_openid_list','aa\TagController@tag_openid_list'); //标签下用户的openid列表
 Route::post('tag_openid','aa\TagController@tag_openid'); //为用户打标签
+
+
+Route::any('event','aa\EventController@event');//接收微信发送的消息【用户互动】
 
 
 

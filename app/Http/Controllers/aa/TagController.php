@@ -5,6 +5,7 @@ namespace App\Http\Controllers\aa;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Tools\Tools;
+use DB;
 class TagController extends Controller
 {
     public $tools;
@@ -63,12 +64,12 @@ class TagController extends Controller
         $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
 //        dd($re);
         $result=json_decode($re,1);
-        dd($result);
+//        dd($result);
+        return redirect('tag_list');
     }
     // 修改标签
     public function tag_update(request $request)
     {
-
         return view('aa.tag.tag_update',['tag_id'=>$request->all()['tag_id'],'tag_name'=>$request->all()['tag_name']]);
     }
     // 修改执行标签
@@ -85,18 +86,38 @@ class TagController extends Controller
 //        dd($data);
         $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
         $result=json_decode($re,1);
-        dd($result);
+//        dd($result);
+        return redirect('tag_list');
     }
-    //推送标签群发消息
-    public function push_tag_message(Request $request)
+    //给用户打标签
+    public function add_user_tag(Request $request)
     {
-//        echo 11;die;
+        $openid_info = DB::table('wechat_openid')->whereIn('id',$request->all()['id_list'])->select(['openid'])->get()->toArray();
+//         dd($openid_info);
+        $openid_list = [];
+        foreach($openid_info as $v){
+            $openid_list[] = $v->openid;
+        }
+        $url = 'https://api.weixin.qq.com/cgi-bin/tags/members/batchtagging?access_token='.$this->tools->get_wechat_access_token();
+        // dd($url);
+        $data = [
+            'openid_list'=>$openid_list,
+            'tagid'=>$request->all()['tagid'],
+        ];
+//         dd($data);
+        $re = $this->tools->curl_post($url,json_encode($data));
+        dd($re);
+        dd(json_decode($re,1));
+    }
+    ////    给标签下的粉丝推送消息
+    public function push_tag_message(request $request)
+    {
         return view('aa.tag.push_tag_message',['tagid'=>$request->all()['tagid']]);
     }
-    //推送执行标签群发消息
     public function do_push_tag_message(Request $request)
     {
         $req = $request->all();
+//    dd($req);
         $url = 'https://api.weixin.qq.com/cgi-bin/message/mass/sendall?access_token='.$this->tools->get_wechat_access_token();
         $data = [
             'filter' => [
@@ -108,43 +129,9 @@ class TagController extends Controller
             ],
             'msgtype'=>'text'
         ];
-        $re = $this->tools->curl_post($url,json_encode($data));
-        $result = json_decode($re,1);
-        dd($result);
-    }
-
-    public function user_tag_list(Request $request)
-    {
-        $req = $request->all();
-        $url = 'https://api.weixin.qq.com/cgi-bin/tags/getidlist?access_token='.$this->tools->get_wechat_access_token();
-        $data = [
-            'openid'=>$req['openid']
-        ];
-        $re = $this->tools->curl_post($url,json_encode($data));
-        $result = json_decode($re,1);
-        $tag = file_get_contents('https://api.weixin.qq.com/cgi-bin/tags/get?access_token='.$this->tools->get_wechat_access_token());
-        $tag_result = json_decode($tag,1);
-        $tag_arr = [];
-        foreach($tag_result['tags'] as $v){
-            $tag_arr[$v['id']] = $v['name'];
-        }
-        foreach($result['tagid_list'] as $v){
-            echo $tag_arr[$v]."<br/>";
-        }
-    }
-
-    public function tag_openid(Request $request)
-    {
-        $req = $request->all();
-//        dd($req);
-        $url = 'https://api.weixin.qq.com/cgi-bin/tags/members/batchtagging?access_token='.$this->tools->get_wechat_access_token();
-//        dd($url);
-        $data = [
-            'openid_list'=>$req['openid_list'],
-            'tagid'=>$req['tagid']
-        ];
 //        dd($data);
         $re = $this->tools->curl_post($url,json_encode($data));
+//        dd($re);
         $result = json_decode($re,1);
         dd($result);
     }
