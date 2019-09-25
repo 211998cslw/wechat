@@ -34,6 +34,7 @@ class EventController extends Controller
                 $today = date('Y-m-d',time()); //当天日期
                 $last_day = date('Y-m-d',strtotime('-1 days'));  //昨天
                 $openid_info = DB::connection('wechat1')->table("wechat_openid")->where(['openid'=>$xml_arr['FromUserName']])->first();
+                dd($openid_info);
                 if(empty($openid_info)){
                     //没有数据，存入
                     DB::connection('wechat1')->table("wechat_openid")->insert([
