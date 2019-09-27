@@ -4,6 +4,7 @@ namespace App\Http\Controllers\aa;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Libraries\Test;
 use DB;
 use App\Tools\Tools;
 class LoginController extends Controller
@@ -14,7 +15,7 @@ class LoginController extends Controller
     {
         $this->tools = $tools;
     }
-    public function login()
+    public function q_login()
     {
         Test::index();
     }
@@ -59,7 +60,7 @@ class LoginController extends Controller
         $user_info = file_get_contents('https://api.weixin.qq.com/sns/userinfo?access_token='.$re['access_token'].'&openid='.$re['openid'].'&lang=zh_CN');//拉取用户信息
         $wechat_user_info = json_decode($user_info,1);
 //       dd($wechat_user_info);
-         $openid=$re['openid'];
+        $openid=$re['openid'];
 //        dd($openid);
         $wechat_info=DB::table('user_wechat')->where(['openid'=>$openid])->first();
         //dd($wechat_info);//id  uid  openid
@@ -82,6 +83,110 @@ class LoginController extends Controller
             //登录操作
             $request->session()->put('uid',$wechat_info['uid']);
             return redirect('get_user_list');
+        }
+    }
+
+    public function send(){
+        $user_url = 'https://api.weixin.qq.com/cgi-bin/user/get?access_token='.$this->tools->get_wechat_access_token().'&next_openid=';
+        $openid_info = file_get_contents($user_url);
+        $user_result = json_decode($openid_info,1);
+        foreach($user_result['data']['openid'] as $v){
+            $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token='.$this->tools->get_wechat_access_token().'&openid='.$v.'&lang=zh_CN';
+            $user_re = file_get_contents($url);
+            $user_info = json_decode($user_re,1);
+            $db_user = DB::connection('wechat1')->table("wechat_openid")->where(['openid'=>$v])->first();
+            if(empty($db_user)){
+                //没有数据，存入
+                DB::connection('wechat1')->table("wechat_openid")->insert([
+                    'openid'=>$v,
+                    'add_time'=>time()
+                ]);
+                //就是未签到
+                $url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$this->tools->get_wechat_access_token();
+                $data = [
+                    'touser'=>'o40CXv-PhZugcJC7RyF0r6NDZ84o',
+                    'template_id'=>'XHFx24_PgfDa1HPRFYYixsNmzXtBH7QPqX3ymSycpNo',
+                    'data'=>[
+                        'keyword1'=>[
+                            'value'=>$user_info['nickname'],
+                            'color'=>''
+                        ],
+                        'keyword2'=>[
+                            'value'=>'未签到',
+                            'color'=>''
+                        ],
+                        'keyword3'=>[
+                            'value'=>'0',
+                            'color'=>''
+                        ],
+                        'keyword4'=>[
+                            'value'=>'',
+                            'color'=>''
+                        ]
+                    ]
+                ];
+                $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
+                $result=json_decode($re,1);
+                dd($result);
+            }else{
+                //判断是否签到
+                $today = date('Y-m-d',time());
+                if($db_user->sign_day == $today){
+                    $url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$this->tools->get_wechat_access_token();
+                    $data = [
+                        'touser'=>'o40CXv-PhZugcJC7RyF0r6NDZ84o',
+                        'template_id'=>'XHFx24_PgfDa1HPRFYYixsNmzXtBH7QPqX3ymSycpNo',
+                        'data'=>[
+                            'keyword1'=>[
+                                'value'=>$user_info['nickname'],
+                                'color'=>''
+                            ],
+                            'keyword2'=>[
+                                'value'=>'已签到',
+                                'color'=>''
+                            ],
+                            'keyword3'=>[
+                                'value'=>$db_user->score,
+                                'color'=>''
+                            ],
+                            'keyword4'=>[
+                                'value'=>$today,
+                                'color'=>''
+                            ]
+                        ]
+                    ];
+                    $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
+                    $result=json_decode($re,1);
+                    dd($result);
+                }else{
+                    $url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$this->tools->get_wechat_access_token();
+                    $data = [
+                        'touser'=>'o40CXv-PhZugcJC7RyF0r6NDZ84o',
+                        'template_id'=>'XHFx24_PgfDa1HPRFYYixsNmzXtBH7QPqX3ymSycpNo',
+                        'data'=>[
+                            'keyword1'=>[
+                                'value'=>$user_info['nickname'],
+                                'color'=>''
+                            ],
+                            'keyword2'=>[
+                                'value'=>'未签到',
+                                'color'=>''
+                            ],
+                            'keyword3'=>[
+                                'value'=>$db_user->score,
+                                'color'=>''
+                            ],
+                            'keyword4'=>[
+                                'value'=>'',
+                                'color'=>''
+                            ]
+                        ]
+                    ];
+                    $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
+                    $result=json_decode($re,1);
+                    dd($result);
+                }
+            }
         }
     }
 }

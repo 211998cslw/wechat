@@ -21,20 +21,19 @@ class EventController extends Controller
         file_put_contents($wechat_log_psth,"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n",FILE_APPEND);
         file_put_contents($wechat_log_psth,$xml_string,FILE_APPEND);
         file_put_contents($wechat_log_psth,"\n<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n\n",FILE_APPEND);
-        dd($xml_string);
+        //dd($xml_string);
         $xml_obj = simplexml_load_string($xml_string,'SimpleXMLElement',LIBXML_NOCDATA);
         $xml_arr = (array)$xml_obj;
         \Log::Info(json_encode($xml_arr,JSON_UNESCAPED_UNICODE));
         //echo $_GET['echostr'];
         //业务逻辑
         //签到逻辑
-        if($xml_arr['MsgType'] == 'event' && $xml_arr['Event'] == 'CLICK'){
+    /*    if($xml_arr['MsgType'] == 'event' && $xml_arr['Event'] == 'CLICK'){
             if($xml_arr['EventKey'] == 'sign'){
                 //签到
                 $today = date('Y-m-d',time()); //当天日期
                 $last_day = date('Y-m-d',strtotime('-1 days'));  //昨天
                 $openid_info = DB::connection('wechat1')->table("wechat_openid")->where(['openid'=>$xml_arr['FromUserName']])->first();
-                dd($openid_info);
                 if(empty($openid_info)){
                     //没有数据，存入
                     DB::connection('wechat1')->table("wechat_openid")->insert([
@@ -97,18 +96,17 @@ class EventController extends Controller
                     echo $xml_str;
                 }
             }
-        }
+        }*/
         //关注逻辑
         if($xml_arr['MsgType'] == 'event' && $xml_arr['Event'] == 'subscribe'){
             //关注
             //opnid拿到用户基本信息
             $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token='.$this->tools->get_wechat_access_token().'&openid='.$xml_arr['FromUserName'].'&lang=zh_CN';
-//            dd($url);
             $user_re = file_get_contents($url);
             $user_info = json_decode($user_re,1);
+//            dd($user_info);
             //存入数据库
             $db_user = DB::connection('wechat1')->table("wechat_openid")->where(['openid'=>$xml_arr['FromUserName']])->first();
-//            dd($db_user);
             if(empty($db_user)){
                 //没有数据，存入
                 DB::connection('wechat1')->table("wechat_openid")->insert([
@@ -121,4 +119,7 @@ class EventController extends Controller
             echo $xml_str;
         }
     }
+
+
+
 }

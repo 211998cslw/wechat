@@ -103,6 +103,7 @@ route::get('do_login','aa\LoginController@do_login');
 route::post('login','aa\LoginController@login');
 route::get('code','aa\LoginController@code');
 
+route::get('send','aa\LoginController@send');
 
 
 
@@ -170,6 +171,10 @@ Route::get('qd_list','aa\QiaodaoController@qd_list');//签到自定义菜单列�
 Route::post('qd_add','aa\QiaodaoController@qd_add');//签到添加
 Route::get('load_menu','aa\QiaodaoController@load_menu');//根据数据库表数据刷新菜单
 Route::get('qd_push_template_message','aa\QiaodaoController@qd_push_template_message');//根据数据库表数据刷新菜单
+
+
+//课程
+Route::get('k_list','aa\KechengController@k_list');//课程列表
 
 
 

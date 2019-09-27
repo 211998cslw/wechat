@@ -27,7 +27,7 @@ class Tools {
             // 获取access_token
             $result = file_get_contents('https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=' . env('WECHAT_APPID') . '&secret=' . env('WECHAT_APPSECRET'));
             $re = json_decode($result, 1);
-        dd($re);
+//        dd($re);
             $this->redis->set($access_token_key, $re['access_token'], $re['expires_in']);//加入缓存
             return $re['access_token'];
 
