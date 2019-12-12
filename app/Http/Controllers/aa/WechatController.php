@@ -138,7 +138,7 @@ class WechatController extends Controller
             $path = request()->file($name)->storeAs('/wechat/'.$source_type,$file_name);
 //            dd($path);//"wechat/image/15679998053668.jpg"
             $storage_path = '/storage/'.$path;
-            //dd($storage_path);//"/storage/wechat/image/15679998482238.jpg"
+            dd($storage_path);//"/storage/wechat/image/15679998482238.jpg"
             $path = realpath('./storage/'.$path);
             // dd($path);
             $url = 'https://api.weixin.qq.com/cgi-bin/material/add_material?access_token='.$this->tools->get_wechat_access_token().'&type='.$source_type;
@@ -306,7 +306,7 @@ class WechatController extends Controller
     {
         $openid="o40CXv-PhZugcJC7RyF0r6NDZ84o";
         $url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$this->tools->get_wechat_access_token();
-//        dd($url);
+        dd($url);
         $data=[
             'touser'=>$openid,
             'template_id'=>'AOMWRqxC4k0vMqbYxvSyzQ3JqsQ8tOdPzcjTTC0yoaE',

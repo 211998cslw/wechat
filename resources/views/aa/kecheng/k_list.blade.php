@@ -12,40 +12,45 @@
     <table border="1">
         <tr>
             <td colspan="2">
-                第一节课:<select name="" id="">
-                    <option value="">php</option>
-                    <option value="">css</option>
-                    <option value="">html</option>
+                第一节课:<select name="kecheng1" id="">
+                    <option value="php">php</option>
+                    <option value="css">css</option>
+                    <option value="html">html</option>
                 </select>
             </td>
         </tr>
         <tr>
             <td colspan="2">
-                第二节课:<select name="" id="">
-                    <option value="">语文</option>
-                    <option value="">数学</option>
-                    <option value="">英语</option>
-                </select>
-            </td>
-        </tr>
-
-        <tr>
-            <td colspan="2">
-                第三节课:<select name="" id="">
-                    <option value="">数学</option>
-                    <option value="">体育</option>
-                    <option value="">音乐</option>
+                第二节课:<select name="kecheng2" id="">
+                    <option value="语文">语文</option>
+                    <option value="数学">数学</option>
+                    <option value="英语">英语</option>
                 </select>
             </td>
         </tr>
 
         <tr>
             <td colspan="2">
-                第四节课:<select name="" id="">
-                    <option value="">语文</option>
-                    <option value="">数学</option>
-                    <option value="">体育</option>
+                第三节课:<select name="kecheng3" id="">
+                    <option value="数学">数学</option>
+                    <option value="体育">体育</option>
+                    <option value="音乐">音乐</option>
                 </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                第四节课:<select name="kecheng4" id="">
+                    <option value="语文">语文</option>
+                    <option value="数学">数学</option>
+                    <option value="体育">体育</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="提交">
             </td>
         </tr>
     </table>

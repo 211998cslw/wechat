@@ -28,7 +28,7 @@ class EventController extends Controller
         //echo $_GET['echostr'];
         //业务逻辑
         //签到逻辑
-    /*    if($xml_arr['MsgType'] == 'event' && $xml_arr['Event'] == 'CLICK'){
+if($xml_arr['MsgType'] == 'event' && $xml_arr['Event'] == 'CLICK'){
             if($xml_arr['EventKey'] == 'sign'){
                 //签到
                 $today = date('Y-m-d',time()); //当天日期
@@ -96,15 +96,18 @@ class EventController extends Controller
                     echo $xml_str;
                 }
             }
-        }*/
-        //关注逻辑
+        }
+//        $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
+//       dd($re);
+//        $result=json_decode($re,1);
+//       dd($result);
+//关注逻辑
         if($xml_arr['MsgType'] == 'event' && $xml_arr['Event'] == 'subscribe'){
             //关注
             //opnid拿到用户基本信息
             $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token='.$this->tools->get_wechat_access_token().'&openid='.$xml_arr['FromUserName'].'&lang=zh_CN';
             $user_re = file_get_contents($url);
             $user_info = json_decode($user_re,1);
-//            dd($user_info);
             //存入数据库
             $db_user = DB::connection('wechat1')->table("wechat_openid")->where(['openid'=>$xml_arr['FromUserName']])->first();
             if(empty($db_user)){
@@ -114,12 +117,9 @@ class EventController extends Controller
                     'add_time'=>time()
                 ]);
             }
-            $message = '欢迎'.$user_info['nickname'].'同学，感谢您的关注';
+            $message = 'Hello'.$user_info['nickname'].'关注';
             $xml_str = '<xml><ToUserName><![CDATA['.$xml_arr['FromUserName'].']]></ToUserName><FromUserName><![CDATA['.$xml_arr['ToUserName'].']]></FromUserName><CreateTime>'.time().'</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA['.$message.']]></Content></xml>';
             echo $xml_str;
         }
     }
-
-
-
 }

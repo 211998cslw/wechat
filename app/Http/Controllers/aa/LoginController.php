@@ -31,7 +31,7 @@ class LoginController extends Controller
             $url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$this->tools->get_wechat_access_token();
             $data = [
                 'touser'=>$v,
-                'template_id'=>'yqzB2bWhBkD8kLYN-Wh2FIxSlTpOsapOV9ovWt-uHmA',
+                'template_id'=>'nerZF2Gc3MINo98KddsgD0A0sgjD55gAyHrWjk5LLdY',
                 'data'=>[
                 ]
             ];
@@ -87,106 +87,37 @@ class LoginController extends Controller
     }
 
     public function send(){
-        $user_url = 'https://api.weixin.qq.com/cgi-bin/user/get?access_token='.$this->tools->get_wechat_access_token().'&next_openid=';
-        $openid_info = file_get_contents($user_url);
-        $user_result = json_decode($openid_info,1);
-        foreach($user_result['data']['openid'] as $v){
-            $url = 'https://api.weixin.qq.com/cgi-bin/user/info?access_token='.$this->tools->get_wechat_access_token().'&openid='.$v.'&lang=zh_CN';
-            $user_re = file_get_contents($url);
-            $user_info = json_decode($user_re,1);
-            $db_user = DB::connection('wechat1')->table("wechat_openid")->where(['openid'=>$v])->first();
-            if(empty($db_user)){
-                //没有数据，存入
-                DB::connection('wechat1')->table("wechat_openid")->insert([
-                    'openid'=>$v,
-                    'add_time'=>time()
-                ]);
-                //就是未签到
-                $url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$this->tools->get_wechat_access_token();
-                $data = [
-                    'touser'=>'o40CXv-PhZugcJC7RyF0r6NDZ84o',
-                    'template_id'=>'XHFx24_PgfDa1HPRFYYixsNmzXtBH7QPqX3ymSycpNo',
-                    'data'=>[
-                        'keyword1'=>[
-                            'value'=>$user_info['nickname'],
-                            'color'=>''
-                        ],
-                        'keyword2'=>[
-                            'value'=>'未签到',
-                            'color'=>''
-                        ],
-                        'keyword3'=>[
-                            'value'=>'0',
-                            'color'=>''
-                        ],
-                        'keyword4'=>[
-                            'value'=>'',
-                            'color'=>''
-                        ]
-                    ]
-                ];
-                $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
-                $result=json_decode($re,1);
-                dd($result);
-            }else{
-                //判断是否签到
-                $today = date('Y-m-d',time());
-                if($db_user->sign_day == $today){
-                    $url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$this->tools->get_wechat_access_token();
-                    $data = [
-                        'touser'=>'o40CXv-PhZugcJC7RyF0r6NDZ84o',
-                        'template_id'=>'XHFx24_PgfDa1HPRFYYixsNmzXtBH7QPqX3ymSycpNo',
-                        'data'=>[
-                            'keyword1'=>[
-                                'value'=>$user_info['nickname'],
-                                'color'=>''
-                            ],
-                            'keyword2'=>[
-                                'value'=>'已签到',
-                                'color'=>''
-                            ],
-                            'keyword3'=>[
-                                'value'=>$db_user->score,
-                                'color'=>''
-                            ],
-                            'keyword4'=>[
-                                'value'=>$today,
-                                'color'=>''
-                            ]
-                        ]
-                    ];
-                    $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
-                    $result=json_decode($re,1);
-                    dd($result);
-                }else{
-                    $url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$this->tools->get_wechat_access_token();
-                    $data = [
-                        'touser'=>'o40CXv-PhZugcJC7RyF0r6NDZ84o',
-                        'template_id'=>'XHFx24_PgfDa1HPRFYYixsNmzXtBH7QPqX3ymSycpNo',
-                        'data'=>[
-                            'keyword1'=>[
-                                'value'=>$user_info['nickname'],
-                                'color'=>''
-                            ],
-                            'keyword2'=>[
-                                'value'=>'未签到',
-                                'color'=>''
-                            ],
-                            'keyword3'=>[
-                                'value'=>$db_user->score,
-                                'color'=>''
-                            ],
-                            'keyword4'=>[
-                                'value'=>'',
-                                'color'=>''
-                            ]
-                        ]
-                    ];
-                    $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
-                    $result=json_decode($re,1);
-                    dd($result);
-                }
-            }
-        }
+        $openid="o40CXv-PhZugcJC7RyF0r6NDZ84o";
+        $url = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.$this->tools->get_wechat_access_token();
+//        dd($url);
+        $data=[
+            'touser'=>$openid,
+            'template_id'=>'nerZF2Gc3MINo98KddsgD0A0sgjD55gAyHrWjk5LLdY',
+            'url'=>'http://www.wechat.com',
+            'data'=>[
+                'keyword1'=>[
+                    'value'=>'第一节课',
+                    'color'=>''
+                ],
+                'keyword2'=>[
+                    'value'=>'第二节课',
+                    'color'=>''
+                ],
+                'keyword3'=>[
+                    'value'=>'第三节课',
+                    'color'=>''
+                ],
+                'keyword4'=>[
+                    'value'=>'第四节课',
+                    'color'=>''
+                ]
+            ]
+        ];
+        $re=$this->tools->curl_post($url,json_encode($data,JSON_UNESCAPED_UNICODE));
+//        dd($re);
+        $result=json_decode($re,1);
+        dd($result);
     }
+
+
 }

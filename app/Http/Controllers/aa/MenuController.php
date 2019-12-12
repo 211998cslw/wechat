@@ -61,6 +61,12 @@ class MenuController extends Controller
                             'name'=>$v['name1'],
                             'url'=>$v['event_value']
                         ];
+                    }elseif ($v['type']==3){//pic_weixin
+                        $arr = [
+                            'type'=>'pic_weixin',
+                            'name'=>$v['name1'],
+                            'url'=>$v['event_value']
+                        ];
                     }
                 }elseif($v['button_type'] == 2){ //带有二级菜单的一级菜单
                     $arr['name'] = $v['name1'];

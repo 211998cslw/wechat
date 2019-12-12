@@ -61,6 +61,11 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'zhoukao'=> \App\Http\Middleware\Zhoukao::class,
+        'apiheader'=>\App\Http\Middleware\Api::class,
+        'apiToken'=>\App\Http\Middleware\Token::class,
+        'yuekao'=>\App\Http\Middleware\Yuekao::class,
+
+
     ];
 
     /**

@@ -19,7 +19,7 @@ class TagController extends Controller
     public function tag_list()
     {
         $url = "https://api.weixin.qq.com/cgi-bin/tags/get?access_token=" . $this->tools->get_wechat_access_token();
-//        dd($url);
+        dd($url);
         $re = file_get_contents($url);
 //        dd($result);
         $result = json_decode($re, 1);
